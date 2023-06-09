@@ -24,13 +24,15 @@ h3 {
 
 .hero h1 {
   margin-bottom: 8px;
+  font-size: 96px;
 }
 .hero h2 {
   margin-bottom: 48px;
 }
 h1 {
-  font-size: 96px;
+  font-size: 75px;
   font-weight: 900;
+  text-transform: capitalize;
 }
 h2 {
   font-size: 24pxpx;
@@ -48,8 +50,32 @@ h2 {
 @media (max-width: 700px) {
   h1 {
     font-size: 50px;
+    text-align: center;
   }
   .hero {
     padding: 80px 20px;
   }
+  p {
+    text-align: center;
+  }
+  .btn-branding-outline {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+p {
+  font-size: 16px;
+  font-family: var(--default-family-font);
+  font-weight: 500;
+  line-height: 2;
+}
+
+.btn-branding-outline {
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
