@@ -101,7 +101,7 @@ p {
 .about-section h1 {
   font-size: 64px;
   line-height: 80px;
-  margin: 20px;
+  margin: 0px;
 }
 .about-section h2 {
   font-size: 18px;
@@ -143,14 +143,17 @@ p {
   color: var(--branding-color);
 }
 
-
-
 .contact-box {
   background-color: var(--secondary-color);
   border-radius: 5px;
   padding: 30px 120px;
 }
 
-h4{
+h4 {
   font-size: 48px;
+}
+
+.contact-page p {
+  font-weight: bold;
+  font-size: larger;
 }
