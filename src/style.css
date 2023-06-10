@@ -118,3 +118,39 @@ p {
   max-height: 600px;
 }
 
+.social-links a {
+  color: var(--branding-color);
+  padding: 9px 14px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+.social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
+.email-link {
+  color: black;
+  font-family: var(--default-family-font);
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: var(--branding-color);
+}
+
+
+
+.contact-box {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  padding: 30px 120px;
+}
+
+h4{
+  font-size: 48px;
+}
